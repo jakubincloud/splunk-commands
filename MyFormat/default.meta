@@ -1,0 +1,7 @@
+[commands/diffformat]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[scripts/myformat.py]
+access = read : [ * ], write : [ admin ]
+export = system
